@@ -1,0 +1,25 @@
+.SortBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .selectInput {
+    width: 100px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .sortType {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    svg {
+      cursor: pointer;
+    }
+  }
+}

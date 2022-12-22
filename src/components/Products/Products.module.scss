@@ -1,0 +1,15 @@
+.productsWrapper {
+  display: flex;
+  justify-content: center;
+
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.productsRows {
+  flex-direction: column;
+  align-items: center;
+}
+.productsGrids {
+  flex-direction: row;
+}
